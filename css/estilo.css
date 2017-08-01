@@ -1,34 +1,36 @@
-h1{
-font-family: 'Open Sans', sans-serif;
-font-size: 700%;
-
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 700%;
 }
 
-.colort{
-  color: #aedda4;
+.colort {
+  color: #26A69A;
 }
-
+  .colorn{
+    color: #C7A326;
+  }
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-  .tamanoimg{
-    width: 90%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
-.tamgale{
+.tamanoimg {
+  width: 90%;
+}
+.tamlogo{
+  width: 5%;
+}
+.tamgale {
   height: 60vh;
 }
 
-
-
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -38,7 +40,7 @@ font-size: 700%;
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
